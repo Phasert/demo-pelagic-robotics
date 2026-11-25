@@ -208,7 +208,7 @@ h1 em, h2 em { color: var(--aqua); font-weight: 400; }
 .fleet-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(16px, 2.5vw, 34px); }
 .fleet-card { border: 1px solid #a9bfbb; background: #fcfaf2; }
 .fleet-featured { display: grid; grid-template-columns: 1.36fr 1fr; grid-column: 1 / -1; }
-.fleet-image { position: relative; min-height: 226px; height: 100%; aspect-ratio: 2.15; background: radial-gradient(ellipse at 50% 44%, #267680, #103743 57%, #061b24); }
+.fleet-image { position: relative; width: 100%; min-height: 226px; aspect-ratio: 2.15; background: radial-gradient(ellipse at 50% 44%, #267680, #103743 57%, #061b24); }
 .fleet-featured .fleet-image { aspect-ratio: auto; }
 .fleet-image img { object-fit: cover; }
 .fleet-featured img { object-fit: contain; }
